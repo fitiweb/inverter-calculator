@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en-NG">
+
+<head>
+  <!-- =========================================================
+       FITIWEBS SOLAR & INVERTER CALCULATOR
+       Developer: FITIWEBS
+       Email: fitiwebs@gmail.com
+       WhatsApp: +2349132064109
+       ========================================================= -->
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO TITLE -->
+  <title>
+    Solar & Inverter Sizing Calculator Nigeria | FITIWEBS
+  </title>
+
+  <!-- SEO DESCRIPTION -->
+  <meta name="description"
+        content="Calculate the right inverter size, battery capacity, solar panel size and system voltage for your home in Nigeria with the free FITIWEBS Solar & Inverter Calculator.">
+
+  <!-- KEYWORDS -->
+  <meta name="keywords"
+        content="solar calculator Nigeria, inverter calculator Nigeria, inverter sizing calculator, solar inverter calculator, battery sizing calculator, solar panel calculator, inverter battery calculator, calculate inverter size, calculate solar panel size, home solar system calculator, FITIWEBS">
+
+  <meta name="author"
+        content="FITIWEBS">
+
+  <meta name="robots"
+        content="index, follow">
+
+  <!-- CANONICAL -->
+  <link rel="canonical"
+        href="https://www.fitiwebs.com/inverter-calculator">
+
+  <!-- THEME -->
+  <meta name="theme-color"
+        content="#0b6b3a">
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:type"
+        content="website">
+
+  <meta property="og:title"
+        content="Solar & Inverter Sizing Calculator Nigeria | FITIWEBS">
+
+  <meta property="og:description"
+        content="Find the right inverter, battery and solar panel size for your home using the free FITIWEBS solar calculator.">
+
+  <meta property="og:url"
+        content="https://www.fitiwebs.com/inverter-calculator">
+
+  <meta property="og:site_name"
+        content="FITIWEBS">
+
+  <meta property="og:image"
+        content="https://www.fitiwebs.com/images/solar-calculator.jpg">
+
+  <!-- TWITTER CARD -->
+  <meta name="twitter:card"
+        content="summary_large_image">
+
+  <meta name="twitter:title"
+        content="Solar & Inverter Sizing Calculator Nigeria | FITIWEBS">
+
+  <meta name="twitter:description"
+        content="Calculate your inverter, battery and solar panel requirements with FITIWEBS.">
+
+  <meta name="twitter:image"
+        content="https://www.fitiwebs.com/images/solar-calculator.jpg">
+
+
+  <!-- FAVICON -->
+  <link rel="icon"
+        href="favicon.ico">
+
+
+  <!-- CSS -->
+  <link rel="stylesheet"
+        href="style.css">
+
+
+  <!-- =========================================================
+       STRUCTURED DATA: WEBSITE
+       ========================================================= -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "FITIWEBS",
+    "url": "https://www.fitiwebs.com/",
+    "description": "FITIWEBS provides website development, digital services, solar installation and solar system design."
+  }
+  </script>
+
+
+  <!-- =========================================================
+       STRUCTURED DATA: SOFTWARE APPLICATION
+       ========================================================= -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "FITIWEBS Solar & Inverter Sizing Calculator",
+    "url": "https://www.fitiwebs.com/inverter-calculator",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "All",
+    "description": "Free solar and inverter sizing calculator for estimating inverter capacity, battery capacity, solar panel size and system voltage.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "NGN"
+    }
+  }
+  </script>
+
+
+  <!-- =========================================================
+       STRUCTURED DATA: FAQ
+       ========================================================= -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I calculate the inverter size I need?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Add the running watts of the appliances you want to operate at the same time and allow additional capacity for starting or surge loads. The required inverter size also depends on power factor and appliance characteristics."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many batteries do I need for my inverter?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Battery requirements depend on your total load, desired backup time, battery voltage, battery chemistry and usable depth of discharge."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many solar panels do I need for my home?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Solar panel requirements depend on your daily energy consumption, panel wattage, available sunlight, system losses and the amount of energy you want the solar system to produce."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use this calculator to design a complete solar system?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The calculator provides an initial estimate. A complete professional solar design should also consider MPPT voltage limits, cable sizes, protection devices, battery specifications, roof orientation, solar irradiation and the actual specifications of the selected equipment."
+        }
+      }
+    ]
+  }
+  </script>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     HEADER
+     ========================================================= -->
+
+<header class="hero">
+
+  <nav class="navbar">
+
+    <div class="logo">
+      FITI<span>WEBS</span>
+    </div>
+
+    <a href="#calculator"
+       class="nav-button">
+      Solar Calculator
+    </a>
+
+  </nav>
+
+
+  <div class="hero-content">
+
+    <span class="badge">
+      🇳🇬 Built for Nigerian Homes
+    </span>
+
+    <h1>
+      Solar & Inverter Sizing Calculator
+    </h1>
+
+    <p>
+      Calculate the right inverter, battery capacity,
+      solar panel size and system voltage for your home.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a href="#calculator"
+         class="btn primary">
+        Calculate My System
+      </a>
+
+      <a href="#how-it-works"
+         class="btn secondary">
+        How It Works
+      </a>
+
+    </div>
+
+  </div>
+
+</header>
+
+
+
+<!-- =========================================================
+     INTRODUCTION
+     ========================================================= -->
+
+<main>
+
+<section class="section">
+
+  <div class="container">
+
+    <div class="intro">
+
+      <span class="section-label">
+        FREE SOLAR TOOL
+      </span>
+
+      <h2>
+        Find the Right Inverter and Battery Size
+      </h2>
+
+      <p>
+        Choosing the correct inverter and battery can be
+        confusing. The FITIWEBS Solar & Inverter Calculator
+        helps you estimate the equipment capacity required
+        based on your appliances and desired backup time.
+      </p>
+
+      <p>
+        Enter your appliances below and get an estimated
+        inverter size, battery capacity, solar panel
+        requirement and recommended system voltage.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     HOW IT WORKS
+     ========================================================= -->
+
+<section class="section light"
+         id="how-it-works">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <span class="section-label">
+        SIMPLE PROCESS
+      </span>
+
+      <h2>
+        How the Solar Calculator Works
+      </h2>
+
+    </div>
+
+
+    <div class="steps">
+
+      <article class="step">
+
+        <div class="step-number">
+          01
+        </div>
+
+        <h3>
+          Add Your Appliances
+        </h3>
+
+        <p>
+          Select your appliances and enter how many
+          you use at the same time.
+        </p>
+
+      </article>
+
+
+      <article class="step">
+
+        <div class="step-number">
+          02
+        </div>
+
+        <h3>
+          Set Backup Time
+        </h3>
+
+        <p>
+          Tell the calculator how many hours you want
+          your battery system to run.
+        </p>
+
+      </article>
+
+
+      <article class="step">
+
+        <div class="step-number">
+          03
+        </div>
+
+        <h3>
+          Get Your System Estimate
+        </h3>
+
+        <p>
+          Receive an estimated inverter, battery,
+          solar panel and system voltage recommendation.
+        </p>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     CALCULATOR
+     ========================================================= -->
+
+<section class="section calculator-section"
+         id="calculator">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <span class="section-label">
+        FITIWEBS CALCULATOR
+      </span>
+
+      <h2>
+        Calculate Your Solar System Size
+      </h2>
+
+      <p>
+        Enter the appliances you want to power.
+      </p>
+
+    </div>
+
+
+    <!-- USER INFORMATION -->
+
+    <div class="calculator-card">
+
+      <div class="form-group">
+
+        <label for="customerName">
+          Your Name
+        </label>
+
+        <input
+          type="text"
+          id="customerName"
+          placeholder="Enter your name"
+          autocomplete="name"
+        >
+
+      </div>
+
+
+      <!-- APPLIANCE TABLE -->
+
+      <h3 class="calculator-title">
+        Your Appliances
+      </h3>
+
+
+      <div class="table-wrapper">
+
+        <table class="appliance-table">
+
+          <thead>
+
+            <tr>
+
+              <th>
+                Appliance
+              </th>
+
+              <th>
+                Watts
+              </th>
+
+              <th>
+                Quantity
+              </th>
+
+              <th>
+                Running Watts
+              </th>
+
+              <th>
+                Remove
+              </th>
+
+            </tr>
+
+          </thead>
+
+
+          <tbody id="applianceList">
+
+          </tbody>
+
+        </table>
+
+      </div>
+
+
+      <!-- ADD APPLIANCE -->
+
+      <div class="add-appliance">
+
+        <select id="applianceSelect">
+
+          <option value="">
+            Select an appliance
+          </option>
+
+          <option value="led">
+            LED Bulb
+          </option>
+
+          <option value="fan">
+            Standing Fan
+          </option>
+
+          <option value="tv">
+            Television
+          </option>
+
+          <option value="fridge">
+            Refrigerator
+          </option>
+
+          <option value="freezer">
+            Freezer
+          </option>
+
+          <option value="laptop">
+            Laptop
+          </option>
+
+          <option value="decoder">
+            Decoder
+          </option>
+
+          <option value="router">
+            Wi-Fi Router
+          </option>
+
+          <option value="washing">
+            Washing Machine
+          </option>
+
+          <option value="microwave">
+            Microwave
+          </option>
+
+          <option value="iron">
+            Electric Iron
+          </option>
+
+          <option value="pump">
+            Water Pump
+          </option>
+
+          <option value="ac">
+            Air Conditioner
+          </option>
+
+          <option value="custom">
+            Custom Appliance
+          </option>
+
+        </select>
+
+
+        <button
+          type="button"
+          id="addAppliance"
+          class="btn primary">
+          + Add Appliance
+        </button>
+
+      </div>
+
+
+      <!-- CUSTOM APPLIANCE -->
+
+      <div id="customApplianceBox"
+           class="custom-box hidden">
+
+        <input
+          type="text"
+          id="customName"
+          placeholder="Appliance name"
+        >
+
+        <input
+          type="number"
+          id="customWatts"
+          placeholder="Watts"
+          min="1"
+        >
+
+      </div>
+
+
+      <!-- SYSTEM SETTINGS -->
+
+      <div class="settings-grid">
+
+        <div class="form-group">
+
+          <label for="backupHours">
+            Required Backup Time (Hours)
+          </label>
+
+          <input
+            type="number"
+            id="backupHours"
+            min="0.5"
+            step="0.5"
+            placeholder="Example: 10"
+          >
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="solarHours">
+            Estimated Peak Sun Hours
+          </label>
+
+          <input
+            type="number"
+            id="solarHours"
+            min="1"
+            max="8"
+            step="0.5"
+            value="5"
+          >
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="batteryType">
+            Battery Type
+          </label>
+
+          <select id="batteryType">
+
+            <option value="lithium">
+              Lithium / LiFePO4
+            </option>
+
+            <option value="lead">
+              Lead-Acid
+            </option>
+
+          </select>
+
+        </div>
+
+
+        <div class="form-group">
+
+          <label for="panelWatts">
+            Solar Panel Wattage
+          </label>
+
+          <select id="panelWatts">
+
+            <option value="450">
+              450W
+            </option>
+
+            <option value="550">
+              550W
+            </option>
+
+            <option value="580">
+              580W
+            </option>
+
+            <option value="600">
+              600W
+            </option>
+
+          </select>
+
+        </div>
+
+      </div>
+
+
+      <!-- CALCULATE -->
+
+      <button
+        type="button"
+        id="calculateBtn"
+        class="calculate-button">
+
+        ⚡ Calculate My Solar System
+
+      </button>
+
+
+      <!-- RESULTS -->
+
+      <div id="results"
+           class="results hidden">
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     SEO CONTENT
+     ========================================================= -->
+
+<section class="section">
+
+  <div class="container content">
+
+    <span class="section-label">
+      SOLAR EDUCATION
+    </span>
+
+    <h2>
+      How to Choose the Right Inverter Size for Your Home
+    </h2>
+
+    <p>
+      The correct inverter size depends on the total electrical
+      load you want to run at the same time. Appliances such as
+      refrigerators, freezers, pumps and air conditioners can
+      require additional starting power.
+    </p>
+
+    <p>
+      For this reason, simply adding appliance wattages is not
+      always enough. A suitable safety margin should be included
+      when selecting an inverter.
+    </p>
+
+
+    <h2>
+      How to Calculate Battery Capacity
+    </h2>
+
+    <p>
+      Battery capacity depends on your power consumption,
+      required backup duration, battery voltage, battery
+      chemistry and usable battery capacity.
+    </p>
+
+    <p>
+      A simplified calculation is:
+    </p>
+
+    <div class="formula">
+      Battery Energy = Load × Backup Time
+    </div>
+
+    <p>
+      The result can then be adjusted for battery efficiency,
+      inverter losses and usable depth of discharge.
+    </p>
+
+
+    <h2>
+      How Many Solar Panels Do I Need?
+    </h2>
+
+    <p>
+      Solar panel sizing depends on your daily energy
+      requirement and the amount of useful sunlight available.
+      Panel wattage, system losses and solar conditions should
+      also be considered.
+    </p>
+
+    <p>
+      The FITIWEBS calculator provides an initial estimate.
+      A professional solar system design should verify the
+      final panel configuration and MPPT voltage range.
+    </p>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     FAQ
+     ========================================================= -->
+
+<section class="section light"
+         id="faqs">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <span class="section-label">
+        FAQ
+      </span>
+
+      <h2>
+        Frequently Asked Questions
+      </h2>
+
+    </div>
+
+
+    <div class="faq">
+
+
+      <details>
+
+        <summary>
+          How do I calculate the inverter size I need?
+        </summary>
+
+        <p>
+          Add the running watts of the appliances you want
+          to operate at the same time and allow additional
+          capacity for starting or surge loads. The required
+          inverter size also depends on power factor and
+          appliance characteristics.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          How many batteries do I need for my inverter?
+        </summary>
+
+        <p>
+          Battery requirements depend on your total load,
+          desired backup time, battery voltage, battery
+          chemistry and usable depth of discharge.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          How many solar panels do I need for my home?
+        </summary>
+
+        <p>
+          Solar panel requirements depend on your daily
+          energy consumption, panel wattage, available
+          sunlight and system losses.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          What battery is best for a solar inverter?
+        </summary>
+
+        <p>
+          Lithium iron phosphate batteries are commonly
+          preferred for many modern solar systems because
+          they can provide high usable capacity and long
+          cycle life. However, the battery should always
+          be compatible with the selected inverter.
+        </p>
+
+      </details>
+
+
+      <details>
+
+        <summary>
+          Can this calculator replace a professional solar design?
+        </summary>
+
+        <p>
+          No. This tool provides an initial estimate.
+          A professional installation should verify equipment
+          specifications, MPPT limits, battery requirements,
+          cable sizing, protection devices and site conditions.
+        </p>
+
+      </details>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     CTA
+     ========================================================= -->
+
+<section class="cta-section">
+
+  <div class="container">
+
+    <h2>
+      Need a Professional Solar Installation?
+    </h2>
+
+    <p>
+      Get professional solar system design,
+      inverter sizing and installation from FITIWEBS.
+    </p>
+
+    <a
+      href="https://wa.me/2349132064109"
+      target="_blank"
+      rel="noopener"
+      class="btn whatsapp">
+
+      💬 Talk to FITIWEBS on WhatsApp
+
+    </a>
+
+  </div>
+
+</section>
+
+</main>
+
+
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+
+<footer>
+
+  <div class="container">
+
+    <div class="footer-brand">
+
+      <h2>
+        FITIWEBS
+      </h2>
+
+      <p>
+        Technology • Web Development • Solar Installation
+      </p>
+
+    </div>
+
+
+    <p>
+      WhatsApp:
+      <a href="https://wa.me/2349132064109">
+        +234 913 206 4109
+      </a>
+    </p>
+
+
+    <p>
+      Email:
+      <a href="mailto:fitiwebs@gmail.com">
+        fitiwebs@gmail.com
+      </a>
+    </p>
+
+
+    <p class="copyright">
+      © 2026 FITIWEBS. All Rights Reserved.
+    </p>
+
+  </div>
+
+</footer>
+
+
+<!-- JAVASCRIPT -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
